@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ecommerce Clone using HTML and CSS" />
+    <meta name="author" content="Sadak" />
+    <title>Myshop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p id="top-link"></p>
+      <div class="nav-bar">
+        <div class="nav-logo border"></div>
+        <div class="address border">
+          <div class="loc-img">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="loc-data">
+            <p class="add-first">Deliver to</p>
+            <p class="add-sec">India</p>
+          </div>
+        </div>
+        <div class="nav-search">
+          <select class="search-select">
+            <option value="All">All</option>
+            <option value="Alexa">Alexa Skills</option>
+            <option value="Devices"> Devices</option>
+            <option value="Appliances">Appliances</option>
+            <option value="Apps">Apps & Games</option>
+            <option value="Baby">Baby</option>
+            <option value="Beauty">Beauty</option>
+            <option value="Books">Books</option>
+            <option value="Car">Car & Motorbike</option>
+            <option value="Clothing">Clothing & Accessories</option>
+            <option value="Computers">Computers & Accessories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Garden">Garden & Outdoors</option>
+            <option value="Grocery">Grocery & Gourmet Foods</option>
+            <option value="Health">Health & Personal Care</option>
+            <option value="Home">Home & Kitchen</option>
+            <option value="Industrial">Industrial & Scientific</option>
+            <option value="Jewelry">Jewellery</option>
+            <option value="Kindle">Kindle Store</option>
+            <option value="Luggage">Luggage & Bags</option>
+            <option value="Movies">Movies & TV Shows</option>
+            <option value="Music">Music</option>
+            <option value="Musical">Musical Instruments</option>
+            <option value="Office">Office Products</option>
+            <option value="Pet">Pet Supplies</option>
+            <option value="Shoes">Shoes & Handbags</option>
+            <option value="Software">Software</option>
+            <option value="Sports">Sports, Fitness & Outdoors</option>
+            <option value="Tools">Tools & Home Improvement</option>
+            <option value="Toys">Toys & Games</option>
+            <option value="VideoGames">Video Games</option>
+            <option value="Watches">Watches</option>
+          </select>
+          <input class="search-input" type="text" placeholder="Search Myshop" />
+          <div class="search-icon">
+            <a href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+        </div>
+        <div class="language border">
+          <button>
+            <img class="india" src="images/india.png" alt="" /> EN
+            <span class="arrow">&#9662;</span>
+          </button>
+          <div class="select-lang">
+            <label><input type="radio" name="html" />Telugu</label>
+            <label><input type="radio" name="html" />Hindi</label>
+            <label><input type="radio" name="html" />Kanada</label>
+            <label><input type="radio" name="html" />Tamil</label>
+            <label><input type="radio" name="html" />French</label>
+            <label><input type="radio" name="html" />Portugues</label>
+            <label><input type="radio" name="html" />Marati</label>
+            <label><input type="radio" name="html" />Gujarati</label>
+          </div>
+        </div>
+        <div class="signin border">
+          <button>
+            <p><span class="nav-1"> Hello, sign in</span></p>
+            <p class="nav-2">
+              Account & Lists <span class="arrow">&#9662;</span>
+            </p>
+          </button>
+        </div>
+        <div class="nav-return border">
+          <p><span class="return-1">Returns</span></p>
+          <p class="order">& Orders</p>
+        </div>
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panelall border">
+          <i class="fa-solid fa-bars"></i>
+          Menu
+        </div>
+        <div class="paneloptions">
+          <a class="link" href="">Today's Deals</a>
+          <a class="link" href="">Customer Service</a>
+          <a class="link" href="">Registry</a>
+          <a class="link" href="">Gift Cards</a>
+          <a class="link" href="">Sell</a>
+        </div>
+        <div class="panelend">
+          <a class="link" href="">Shop deals in Electronics</a>
+        </div>
+      </div>
+    </header>
+    <div class="front_display">
+      <div class="front_box">
+        <p>
+          You are on Myshop.com. You can also shop on Myshop India for millions
+          of products with fast local delivery.
+          <a href="#" target="_blank"
+            >Click here to go to Myshop.in</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="shop-section">
+      <div class="box1 box">
+        <div class="box-content">
+          <h3>Get your game on</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/gaming.jpg')"
+          ></div>
+          <p>Shop gaming</p>
+        </div>
+      </div>
+      <div class="box2 box">
+        <div class="box-content">
+          <h3>Shop for home essentials</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/Home-storage.jpg')"
+          ></div>
+          <p>Get home storage</p>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h3>Toys under $25</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/toys.jpg')"
+          ></div>
+          <p>Shop now</p>
+        </div>
+      </div>
+      <div class="box4 box">
+        <div class="box-content">
+          <h3>Sleep in Style</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/bedding.jpg')"
+          ></div>
+          <p>Shop Bedding</p>
+        </div>
+      </div>
+      <div class="box5 box">
+        <div class="box-content">
+          <h3>Style that Speaks</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/Fashion.jpg')"
+          ></div>
+          <p>Sale is on</p>
+        </div>
+      </div>
+      <div class="box6 box">
+        <div class="box-content">
+          <h3>Read Relax Repeat</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/Books.jpg')"
+          ></div>
+          <p>Order now</p>
+        </div>
+      </div>
+      <div class="box7 box">
+        <div class="box-content">
+          <h3>Glow From Within</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/beauty.jpg')"
+          ></div>
+          <p>Shop now</p>
+        </div>
+      </div>
+      <div class="box8 box">
+        <div class="box-content">
+          <h3>Future, On your Wrist</h3>
+          <div
+            class="box-img"
+            style="background-image: url('images/smartwatch.jpg')"
+          ></div>
+          <p>Buy the time now</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot-panel1">
+        <a href="#top-link">Back to top</a>
+      </div>
+      <div class="foot-panel2">
+        <div class="div1">
+          <h4>Get to Know Us</h4>
+          <ul>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About Myshop</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Myshop Devices</a></li>
+            <li><a href="">Myshop Science</a></li>
+          </ul>
+        </div>
+        <div class="div2">
+          <h4>Make Money with Us</h4>
+          <ul>
+            <li><a href="">Sell products on Myshop</a></li>
+            <li><a href="">Sell on Myshop Business</a></li>
+            <li><a href="">Sell apps on Myshop</a></li>
+            <li><a href="">Become an Affiliate</a></li>
+            <li><a href="">Advertise Your Products</a></li>
+            <li><a href="">Self-Publish with Us</a></li>
+            <li><a href="">Host an Myshop Hub</a></li>
+            <li><a href="">See More Make Money with Us</a></li>
+          </ul>
+        </div>
+        <div class="div3">
+          <h4>Myshop Payment Products</h4>
+          <ul>
+            <li><a href="">Myshop Business Card</a></li>
+            <li><a href="">Shop with Points</a></li>
+            <li><a href="">Reload Your Balance</a></li>
+            <li><a href="">Myshop Currency Converter</a></li>
+          </ul>
+        </div>
+        <div class="div4">
+          <h4>Let Us Help You</h4>
+          <ul>
+            <li><a href="">Myshop and COVID-19</a></li>
+            <li><a href="">Your Account</a></li>
+            <li><a href="">Your Orders</a></li>
+            <li><a href="">Shipping Rates & Policies</a></li>
+            <li><a href="">Returns & Replacements</a></li>
+            <li><a href="">Manage your Content and Devices</a></li>
+            <li><a href="">Help</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-panel3">
+        <div class="logo"></div>
+        <div class="button1">
+          <button><i class="fa-solid fa-globe"></i> English</button>
+          <button class="last-img">
+            <img src="images/india.png" alt="India" /> India
+          </button>
+        </div>
+      </div>
+      <div class="foot-panel4">
+        <div class="sub">
+          <h5>AbeBooks</h5>
+          <p>Books, art & collectibles</p>
+        </div>
+        <div class="sub">
+          <h5>Myshop Music</h5>
+          <p>Stream millions of songs</p>
+        </div>
+        <div class="sub">
+          <h5>Myshop Ads</h5>
+          <p>Reach customers wherever they spend their time</p>
+        </div>
+        <div class="sub">
+          <h5>Myshop Business</h5>
+          <p>Everything For Your Business</p>
+        </div>
+        <div class="sub">
+          <h5>MyshopGlobal</h5>
+          <p>Ship Orders Internationally</p>
+        </div>
+        <div class="sub">
+          <h5>Myshop Web Service</h5>
+          <p>Services Scalable Cloud Computing Services</p>
+        </div>
+        <div class="sub">
+          <h5>Audible</h5>
+          <p>Listen to Books & Original Audio Performances</p>
+        </div>
+        <div class="sub">
+          <h5>Myshop Video Direct</h5>
+          <p>Video Distribution Made Easy</p>
+        </div>
+        <div class="sub">
+          <h5>Blink</h5>
+          <p>Smart Security for Every Home</p>
+        </div>
+        <div class="sub">
+          <h5>Sell on Myshop</h5>
+          <p>Start a Selling Account</p>
+        </div>
+        <div class="sub">
+          <h5>IMDb</h5>
+          <p>Movies, TV & Celebrities</p>
+        </div>
+        <div class="sub">
+          <h5>Myshop Subscription Boxes</h5>
+          <p>Top subscription boxes – right to your door</p>
+        </div>
+        <div class="sub">
+          <h5>6pm</h5>
+          <p>Score deals on fashion brands</p>
+        </div>
+        <div class="sub">
+          <h5>Shopbop</h5>
+          <p>Designer Fashion Brands</p>
+        </div>
+        <div class="sub">
+          <h5>Woot!</h5>
+          <p>Deals and Shenanigans</p>
+        </div>
+      </div>
+      <div class="foot-panel5">
+        <div class="pages">
+          <a href="">Conditions of Use</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+          © 1996-2025, Myshop.com, Inc. or its affiliates
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
